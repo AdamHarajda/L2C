@@ -1,0 +1,92 @@
+html,
+body {
+    height: 100%;
+    width: 100%;
+    background-color: olive;
+}
+
+div {
+    /*width: 50%;*/
+    /*height: 50px;*/
+    display: inline-block;
+    padding: 50px 30px 20px 10px;
+    margin: 5px 10px 5px 10px;
+    border: solid 10px green;
+    border-width: 10px 20px 30px 40px;
+    border-right-color: coral;
+    border-left-color: greenyellow;
+    border-top-color: gold;
+    background-color: brown;
+    font-size: 50px;
+    color: #EA005E;
+}
+
+span {
+    border: solid 8px deeppink;
+    background-color: deepskyblue;
+    font-size: 30px;
+}
+
+.list {
+    border: 5px solid blue;
+    background-color: white;
+}
+
+ul.list {
+    border: 5px solid fuchsia;
+}
+
+.listvnor {
+    border: 5px solid yellow;
+    background-color: brown;
+}
+
+.list li {
+    border: dotted 3px deepskyblue;
+    padding: 15px;
+}
+
+ul li {
+    background-color: darkslategray;
+    border: 50px solid darkgray;
+}
+div >strong{
+    color: chartreuse;
+}
+div strong{
+    color: green;
+}
+strong{
+    color: red;
+}
+ul li{
+    color: purple;
+}
+
+a[title]{ /*cez atribút*/
+    color: blue;
+
+}
+a{
+    color: red;
+}
+a.link {
+    color: green;
+}
+.pseudo-selector li:first-child{
+    color: firebrick;
+
+}
+.pseudo-selector li:last-child {
+    color: green;
+}
+.pseudo-selector :nth-child(2){
+    font-size: 20px;
+}
+button:disabled{
+    background-color: black;
+}
+a:hover {
+    font-weight: bold;
+    text-decoration: underline;
+}

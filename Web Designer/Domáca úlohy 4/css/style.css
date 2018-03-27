@@ -1,0 +1,17 @@
+
+
+p[class].text, p.text[class] 
+{
+ color: firebrick;
+}
+p.text, p[class]
+{
+    color: aqua;
+}
+.text, [class]
+{
+    color: brown;
+}
+p{
+    color: blue;
+}
